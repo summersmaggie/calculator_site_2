@@ -4,43 +4,34 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script src="js/jquery-3.2.1.js" type="text/javascript"></script>
-    <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title></title>
   </head>
 
   <body>
+    <div class ="container">
       <div class="page-header">
         <h1>Calculator!</h1>
       </div>
 
-      <div class="btn-group" role="group" aria-label="...">
-        <button id="seven" type="button" class="btn btn-default">7</button>
-        <button id="eight" type="button" class="btn btn-default">8</button>
-        <button id="nine" type="button" class="btn btn-default">9</button>
-        <button id="plus" type="button" class="btn btn-default">+</button>
-      </div>
+      <form id="add">
+        <div class="form-group">
+          <label for="add1">1st number:</label>
+          <input id="add1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="add2">2nd number:</label>
+          <input id="add2" class="form-control" type="text">
+        </div>
 
-      <div class="btn-group" role="group" aria-label="...">
-        <button id="four" type="button" class="btn btn-default">4</button>
-        <button id="five" type="button" class="btn btn-default">5</button>
-        <button id="six" type="button" class="btn btn-default">6</button>
-        <button id="minus" type="button" class="btn btn-default">-</button>
-      </div>
+        <button type="submit" class="btn">Add!</button>
+      </form>
 
-      <div class="btn-group" role="group" aria-label="...">
-        <button id="one" type="button" class="btn btn-default">1</button>
-        <button id="two" type="button" class="btn btn-default">2</button>
-        <button id="three" type="button" class="btn btn-default">3</button>
-        <button id="times" type="button" class="btn btn-default">x</button>
-      </div>
+      <span id="result">Result: </span>
 
-      <div class="btn-group" role="group" aria-label="...">
-        <button id="zero" type="button" class="btn btn-default">0</button>
-        <button id="point" type="button" class="btn btn-default">.</button>
-        <button id="equals" type="button" class="btn btn-default">=</button>
-        <button id="divide" type="button" class="btn btn-default">/</button>
-      </div>
+
+    </div>
 
   </body>
 </html>
