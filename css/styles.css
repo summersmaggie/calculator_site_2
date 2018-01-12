@@ -1,16 +1,23 @@
-#seven{}
-#eight{}
-#nine{}
-#plus{}
-#four{}
-#five{}
-#six{}
-#minus{}
-#one{}
-#two{}
-#three{}
-#times{}
-#zero{}
-#point{}
-#equals{}
-#divide{}
+.jumbotron {
+  text-align: center;
+}
+
+.radio {
+  font-style: italic;
+  margin: 10px;
+}
+
+.btn {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+#output {
+  font-size: 25px;
+}
+
+.result {
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+}
